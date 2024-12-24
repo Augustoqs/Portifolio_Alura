@@ -1,0 +1,17 @@
+@import 'variables';
+
+body {
+    background-color: $light2;
+    overflow-x: hidden;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+
+    @media (max-width: $mdMax) {
+        margin-top: 1rem;
+    }
+}
